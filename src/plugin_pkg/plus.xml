@@ -1,0 +1,19 @@
+    <!-- 
+        定位动态链接库
+            library 根标签下的 path 属性
+        声明子类与父类 
+            library的子标签下的class声明
+    -->
+
+<library path="lib/libplus">
+    <class name = "Dbx/SanBian" type = "dbx_plugins_ns::SanBian" base_class_type="dbx_base_ns::DbxBase">
+        <description>
+            这是三边形插件
+        </description>
+    </class>
+    <class type = "dbx_plugins_ns::SiBian" base_class_type="dbx_base_ns::DbxBase">
+        <description>
+            这是四边形插件
+        </description>
+    </class>
+</library>
